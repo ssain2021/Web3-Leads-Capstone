@@ -1,0 +1,11 @@
+google-adk
+python-dotenv
+pydantic
+requests
+feedparser
+beautifulsoup4
+python-dateutil
+openai
+psycopg2-binary
+mcp
+rich

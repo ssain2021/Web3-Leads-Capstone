@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web3 Lead Qualification"
+  short_description: "Qualify Web3 events into evidence-backed business leads."
+  default_prompt: "Qualify these Web3 events into actionable business leads using the project rules."

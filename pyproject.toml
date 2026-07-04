@@ -1,0 +1,33 @@
+[project]
+name = "web3-leads-agent"
+version = "0.1.0"
+description = "Kaggle capstone agent that turns Web3 RSS feeds into actionable business leads."
+requires-python = ">=3.10"
+dependencies = [
+  "google-adk",
+  "python-dotenv",
+  "pydantic",
+  "requests",
+  "feedparser",
+  "beautifulsoup4",
+  "python-dateutil",
+  "openai",
+  "psycopg2-binary",
+  "mcp",
+  "rich",
+]
+
+[project.scripts]
+web3-leads = "cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["agent", "cli", "demo_pipeline", "mcp_server", "security", "settings"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["core_pipeline*"]
