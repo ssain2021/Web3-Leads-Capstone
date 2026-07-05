@@ -124,6 +124,6 @@ Future improvements could include CI-based secret scanning, richer evaluation da
 
 ## Repository and Demo
 
-GitHub repository: add final GitHub URL here.
+GitHub repository: https://github.com/ssain2021/Web3-Leads-Capstone/
 
-YouTube demo: add final YouTube URL here.
+YouTube demo: https://youtu.be/s-d6-GnOPUg
